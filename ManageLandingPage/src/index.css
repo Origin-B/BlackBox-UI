@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+  --color-b-Orange-400: hsl(12, 88%, 59%);
+  --color-b-Blue-950: hsl(228, 39%, 23%);
+  --color-b-Gray-950: hsl(233, 12%, 13%);
+  --color-b-Orange-50: hsl(13, 100%, 96%);
+  --color-b-Gray-50: hsl(0, 0%, 98%);
+  /* --font-BeVietnamPro:; */
+}
