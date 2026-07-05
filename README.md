@@ -73,10 +73,10 @@ Each challenge is self-contained: it has its own Vite setup, its own dependencie
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/frontend-mentor-challenges.git
+git clone https://github.com/Origin-B/BalckBox-UI.git
 
 # 2. Navigate into the desired challenge folder
-cd frontend-mentor-challenges/challenge-name
+cd BlackBox-UI/challenge-name
 
 # 3. Install dependencies
 npm install
@@ -129,9 +129,8 @@ git push origin challenge/nft-preview-card
 
 This is a personal repository for learning and documentation purposes, but feedback and suggestions are always welcome! Feel free to open an issue or reach out directly:
 
-- 🔗 GitHub: [your profile link]
-- 💼 LinkedIn: [your profile link]
-- 🌐 Frontend Mentor: [your Frontend Mentor profile link]
+- 🔗 GitHub: [https://github.com/Origin-B]
+- 🌐 Frontend Mentor: [https://www.frontendmentor.io/profile/Origin-B]
 
 ---
 
