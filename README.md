@@ -103,8 +103,7 @@ npm run dev
 
 | # | Challenge Name | Difficulty | Live Preview | Source Code |
 |---|---|---|---|---|
-| 01 | *Challenge Name* | Newbie / Junior / Intermediate | [Live](#) | [Code](#) |
-| 02 | *Challenge Name* | Newbie / Junior / Intermediate | [Live](#) | [Code](#) |
+| 01 | *Manage landing page* | Intermediate | [Live](https://origin-b.github.io/BlackBox-UI/Challenge-01-ManageLandingPage) | [Code](https://github.com/Origin-B/BlackBox-UI/tree/Challenge-01-ManageLandingPage) |
 
 > 📝 This table is updated as new challenges are added.
 
