@@ -1,0 +1,47 @@
+@import 'tailwindcss';
+
+@theme {
+  /* Colors */
+  --color-Blue-900: hsl(230, 35%, 7%);
+  --color-Blue-300: hsl(231, 77%, 90%);
+  --color-White: hsl(0, 0%, 100%);
+
+  /* Fonts */
+  --font-bellefair: 'Bellefair', serif;
+  --font-barlow-condensed: 'Barlow Condensed', sans-serif;
+  --font-barlow: 'Barlow', sans-serif;
+
+  --text-Preset-1: 144px;
+  --text-Preset-3: 56px;
+  --text-Preset-4: 32px;
+  --text-Preset-5: 20px;
+  --text-Preset-6: 26px;
+  --text-Preset-7: 14px;
+  --text-Preset-8: 15px;
+  --text-Preset-9: 18px;
+}
+
+@utility app-sec-heading {
+  @apply font-barlow-condensed md:text-Preset-5 text-base tracking-[15%] text-white xl:text-[28px] xl:tracking-[4px];
+}
+@utility main-style {
+  @apply mx-auto grid flex-1 justify-items-center gap-6 p-6 xl:grid-cols-2 xl:justify-items-start xl:p-10;
+}
+@utility app-sec-heading-span {
+  @apply mr-6 font-bold text-white/25 xl:tracking-[4.72px];
+}
+@utility crew-tec-heading {
+  @apply xl:text-Preset-3 text-[24px] md:text-[40px];
+  /* // tec-heading-span  md:text-[24px] */
+}
+@utility crew-tec-content {
+  @apply text-Preset-9 xl:text-Preset-4;
+}
+
+@utility article-style {
+  @apply flex flex-col text-center xl:text-left xl:leading-normal;
+}
+
+@utility article-paragraph {
+  @apply font-barlow text-Preset-8/[1.8] xl:text-Preset-9 normal-case md:text-base;
+}
