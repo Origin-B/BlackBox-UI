@@ -32,7 +32,6 @@
 }
 @utility crew-tec-heading {
   @apply xl:text-Preset-3 text-[24px] md:text-[40px];
-  /* // tec-heading-span  md:text-[24px] */
 }
 @utility crew-tec-content {
   @apply text-Preset-9 xl:text-Preset-4;

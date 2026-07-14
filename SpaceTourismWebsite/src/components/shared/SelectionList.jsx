@@ -22,6 +22,7 @@ export default function SelectionList({ isNavList = false, data }) {
       );
     } else {
       const itemStyle = item.active === true ? condition.true : condition.false;
+
       return (
         <li
           className={`${itemStyle} ${style.liS}`}
@@ -34,5 +35,6 @@ export default function SelectionList({ isNavList = false, data }) {
       );
     }
   });
+
   return <ul className={style.container}>{itemsRender}</ul>;
 }

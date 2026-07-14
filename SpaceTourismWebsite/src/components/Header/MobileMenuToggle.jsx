@@ -10,7 +10,7 @@ export default function MobileMenuToggle({
       onClick={onEvent}
       className={`${className} cursor-pointer md:hidden`}
     >
-      <img src={src} alt={alt} />
+      <img src={src} alt={alt} loading="lazy"/>
     </button>
   );
 }

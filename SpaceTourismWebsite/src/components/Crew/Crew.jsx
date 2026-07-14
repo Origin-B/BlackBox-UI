@@ -1,6 +1,7 @@
 import ContentSection from '../shared/ContentSection';
 import SectionHeader from '../shared/SectionHeader';
 import SelectionList from '../shared/SelectionList';
+
 import { crewData } from '../../myData';
 import { useSelection } from '../shared/useSelection';
 
@@ -44,8 +45,10 @@ export default function Crew() {
       <img
         src={activeItem.image}
         alt={`${activeItem.name} image`}
+        loading='lazy'
         className="w-4/5 xl:row-span-2 xl:max-h-115 xl:w-[80%] xl:self-center xl:justify-self-center"
       />
+    
     </main>
   );
 }

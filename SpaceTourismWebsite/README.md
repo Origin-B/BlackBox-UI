@@ -20,19 +20,19 @@ A fully interactive front-end project built with React and Tailwind CSS. This pr
 
 ### Home Page
 
-![Home View](./src/assets/design/home-design.jpg)
+![Home View](./public/design/Home.png)
 
 ### Destination Page
 
-![Destination View](./src/assets/design/destination-design.jpg)
+![Destination View](./public/design/Destinations.png)
 
 ### Crew Page
 
-![Crew View](./src/assets/design/crew-design.jpg)
+![Crew View](./public/design/Crew.png)
 
 ### Technology Page
 
-![Technology View](./src/assets/design/technology-design.jpg)
+![Technology View](./public/design/Technology.png)
 
 ## 🛠️ Project Structure
 

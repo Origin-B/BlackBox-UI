@@ -18,6 +18,7 @@ export default function Destinations() {
       <img
         src={activeItem.image}
         alt={`${activeItem.name} image`}
+        loading='lazy'
         className="w-1/2 xl:row-span-3 xl:w-[90%]"
       />
 
